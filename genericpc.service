@@ -1,0 +1,12 @@
+[Unit]
+Description=GenericPC Power Daemon
+After=network.target
+
+[Service]
+# Command to execute when the service is started
+ExecStart=/usr/sbin/generic_pc_powerd
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+# WantedBy=graphical-session.target
+WantedBy=default.target

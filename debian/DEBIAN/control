@@ -1,0 +1,10 @@
+Package: GenericPC
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Junhan Shi <junhan.shi@intel.com>
+Installed-Size: 712
+Depends: coreutils, ddcutil,libpci-dev,libnl-3-dev,libnl-genl-3-dev,gettext,libgettextpo-dev,autopoint,libncurses5-dev,libncursesw5-dev,libtool-bin,dh-autoreconf,autoconf-archive,pkg-config
+Section: utils
+Priority: optional
+Description: GenericPC Power  Daemon.
+ This service is responsible for evaluate generic pc power..etc
