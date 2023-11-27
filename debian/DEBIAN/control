@@ -1,4 +1,4 @@
-Package: GenericPC
+Package: GenericPC-B760
 Version: 1.0.0
 Architecture: amd64
 Maintainer: Junhan Shi <junhan.shi@intel.com>
