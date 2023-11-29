@@ -15,7 +15,7 @@ chmod 600 ${WORKDIR}/debian/var/cache/gpowerd
 VER=1.0.0
 sed -i "s/Version:.*/Version: ${VER}/g" ${WORKDIR}/debian/DEBIAN/control
 
-cp -f  generic_pc_powerd ${WORKDIR}/debian/usr/sbin
+cp -f  generic_pc_b760_powerd ${WORKDIR}/debian/usr/sbin
 chmod 755 ${WORKDIR}/debian/usr/sbin/generic_pc_powerd
 #cd ../..
 
