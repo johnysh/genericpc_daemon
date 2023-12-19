@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 # Command to execute when the service is started
-ExecStart=/usr/sbin/generic_pc_powerd
+ExecStart=/usr/sbin/generic_pc_b760_powerd
 ExecReload=/bin/kill -HUP $MAINPID
 
 [Install]

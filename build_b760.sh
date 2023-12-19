@@ -12,11 +12,11 @@ chmod 600 ${WORKDIR}/debian/var/cache/gpowerd
 
 
 #VER=$(grep VERSION Makefile | awk 'NR==5{print $2}' FS=" = ")
-VER=1.0.0
+VER=1.1.1
 sed -i "s/Version:.*/Version: ${VER}/g" ${WORKDIR}/debian/DEBIAN/control
 
 cp -f  generic_pc_b760_powerd ${WORKDIR}/debian/usr/sbin
-chmod 755 ${WORKDIR}/debian/usr/sbin/generic_pc_powerd
+chmod 755 ${WORKDIR}/debian/usr/sbin/generic_pc_b760_powerd
 #cd ../..
 
 cp -f  genericpc.service ${WORKDIR}/debian/usr/lib/systemd/system

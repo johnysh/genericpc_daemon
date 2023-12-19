@@ -1,5 +1,5 @@
 alsa-codec-power	0.5
-base power	16.0439158
+base power	17.4420614
 cpu-consumption	1.56
 cpu-wakeups	39.5
 disk-operations	0
@@ -132,6 +132,7 @@ runtime-rtc_cmos	0
 runtime-serial8250	0
 runtime-snd-soc-dummy	0
 usb-device-03f0-0024	0.1
+usb-device-03f0-154a	0.1
 usb-device-046d-0825	0.1
 usb-device-1d6b-0002	0.1
 usb-device-1d6b-0003	0.1
